@@ -7,8 +7,8 @@ class TriangleTest7 {
     @Test
     void isTriangleExist() {
         Triangle triangle = new Triangle();
-        Boolean actual = triangle.isTriangleExist(1,0,1);
-        Boolean expected = false;
+        Boolean actual = triangle.isTriangleExist(1,233,1);
+        Boolean expected = true;
         assertEquals(expected, actual);
 
 
